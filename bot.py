@@ -1,13 +1,12 @@
 # initial test of a Python worker for deployment to Heroku
 
 import time
-import sys
+import logging
 
 def main():
     """Main loop"""
     while (True):
-        print("I'm awake")
-        sys.stdout.flush()
+        logging.info("I'm awake and logging")
         time.sleep(2)
 
 if __name__ == "__main__":
