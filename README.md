@@ -1,9 +1,10 @@
 demo-slackbot
 =============
 
-This is a simple Slack bot using aslack, intended to show how to write
-a bot in Python and deploy it to Heroku.  The basic idea is that you
-add appropriately edited versions of Procfile, app.json,
+This is a simple Slack bot using
+[aslack](http://pythonhosted.org/aslack/), intended to show how to
+write a bot in Python and deploy it to Heroku.  The basic idea is that
+you add appropriately edited versions of Procfile, app.json,
 requirements.txt, and runtime.txt to your repo, make a bot
 integration, invite your bot to a channel, and then:
 
