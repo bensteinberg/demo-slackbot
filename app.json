@@ -3,7 +3,7 @@
   "description": "A barebones Slack bot, which can be deployed to Heroku.",
   "image": "heroku/python",
   "repository": "https://github.com/bensteinberg/demo-slackbot.git",
-  "keywords": ["python" ],
+  "keywords": [ "python" ],
   "addons": [ ],
   "env": {
     "SLACK_API_TOKEN": {
