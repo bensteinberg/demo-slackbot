@@ -31,7 +31,7 @@ Or deploy [automagically](https://devcenter.heroku.com/articles/heroku-button):
 
 Python versions
 ---------------
-At the moment, [supported Python runtimes](https://devcenter.heroku.com/articles/python-runtimes#supported-python-runtimes) (specified in runtime.txt) are `python-2.7.11` and `python-3.5.1`.  If you're using aslack, you need to use the latter.
+At the moment, Heroku's [supported Python runtimes](https://devcenter.heroku.com/articles/python-runtimes#supported-python-runtimes) (specified in runtime.txt) are `python-2.7.11` and `python-3.5.1`.  If you're using aslack, you need to use the latter.
 
 Setting up the heroku CLI
 -------------------------
