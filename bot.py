@@ -5,8 +5,9 @@ import logging
 
 def main():
     """Main loop"""
+    logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
     while (True):
-        logging.warning("I'm awake and logging")
+        logging.info("I'm awake and logging")
         time.sleep(2)
 
 if __name__ == "__main__":
