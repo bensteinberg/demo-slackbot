@@ -25,6 +25,10 @@ To turn it off:
 
     heroku ps:scale worker=0
 
+Or deploy automagically:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Python versions
 ---------------
 At the moment, [supported Python runtimes](https://devcenter.heroku.com/articles/python-runtimes#supported-python-runtimes) (specified in runtime.txt) are `python-2.7.11` and `python-3.5.1`.  If you're using aslack, you need to use the latter.

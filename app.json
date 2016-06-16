@@ -1,8 +1,14 @@
 {
   "name": "Python Slackbot demo",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "description": "A barebones Slack bot, which can be deployed to Heroku.",
   "image": "heroku/python",
   "repository": "https://github.com/bensteinberg/demo-slackbot.git",
   "keywords": ["python" ],
-  "addons": [ ]
+  "addons": [ ],
+  "env": {
+    "SLACK_API_TOKEN": {
+      "description": "Secret for connecting to Slack.",
+      "required": true
+    }
+  }
 }
