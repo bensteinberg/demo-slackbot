@@ -25,7 +25,7 @@ To turn it off:
 
     heroku ps:scale worker=0
 
-Or deploy automagically:
+Or deploy [automagically](https://devcenter.heroku.com/articles/heroku-button):
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
