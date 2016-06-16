@@ -1,4 +1,4 @@
-# initial test of a Python worker for deployment to Heroku
+# a demo aslack bot for deployment to Heroku
 
 import logging
 import asyncio
