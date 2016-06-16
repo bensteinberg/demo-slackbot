@@ -9,15 +9,15 @@ requirements.txt, and runtime.txt to your repo, make a bot
 integration, invite your bot to a channel, and then:
 
     heroku create
+    heroku config:set SLACK_API_TOKEN=yourtokenhere
+    heroku config:get SLACK_API_TOKEN -s >> .env
 
 To run locally:
 
-    export SLACK_API_TOKEN=yourtokenhere
     heroku local
 
 To run on Heroku:
 
-    heroku config:set SLACK_API_TOKEN=yourtokenhere
     git push heroku master
     heroku ps:scale worker=1
 
