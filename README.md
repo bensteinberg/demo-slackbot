@@ -24,3 +24,11 @@ To run on Heroku:
 To turn it off:
 
     heroku ps:scale worker=0
+
+Python versions
+---------------
+At the moment, [supported Python runtimes](https://devcenter.heroku.com/articles/python-runtimes#supported-python-runtimes) (specified in runtime.txt) are `python-2.7.11` and `python-3.5.1`.  If you're using aslack, you need to use the latter.
+
+Setting up the heroku CLI
+-------------------------
+Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
