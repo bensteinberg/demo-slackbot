@@ -6,7 +6,7 @@ import logging
 def main():
     """Main loop"""
     while (True):
-        logging.info("I'm awake and logging")
+        logging.warning("I'm awake and logging")
         time.sleep(2)
 
 if __name__ == "__main__":
