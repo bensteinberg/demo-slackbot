@@ -1,0 +1,8 @@
+{
+  "name": "Python Slackbot demo",
+  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "image": "heroku/python",
+  "repository": "https://github.com/bensteinberg/demo-slackbot.git",
+  "keywords": ["python" ],
+  "addons": [ ]
+}

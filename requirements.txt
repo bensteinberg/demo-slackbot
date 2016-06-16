@@ -1,0 +1,3 @@
+aiohttp==0.21.6
+aslack==0.7.0
+chardet==2.3.0
